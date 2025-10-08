@@ -1,0 +1,14 @@
+package manufacturing;
+
+public class BOMItem {
+    private Product component;
+    private int quantityRequired;
+
+    public BOMItem(Product component, int quantityRequired) {
+        this.component = component;
+        this.quantityRequired = quantityRequired;
+    }
+
+    public Product getComponent() { return component; }
+    public int getQuantityRequired() { return quantityRequired; }
+}
